@@ -13,7 +13,7 @@ app.use((0, cors_1.default)());
 app.use("/images", express_1.default.static(path_1.default.join(__dirname, "../public/images")));
 app.get("/", (req, res) => {
     console.log(path_1.default.join(__dirname, "../public"));
-    const foodData = [
+   export const foodData = [
         {
             name: "Boilded Egg",
             price: 10,
